@@ -80,7 +80,7 @@ class _AppWidget extends StatelessWidget {
       themeMode: _themeMode,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      initialRoute: MainNavigationRoutesName.home,
+      initialRoute: mainNavigation.initialRoute,
       routes: mainNavigation.routes,
     );
   }

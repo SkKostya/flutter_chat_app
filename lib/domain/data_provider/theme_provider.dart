@@ -25,7 +25,7 @@ class AppTheme {
     appBarTheme: const AppBarTheme(
       backgroundColor: Color(0xFF363A44),
       elevation: 0,
-      actionsIconTheme: IconThemeData(
+      iconTheme: IconThemeData(
         color: Colors.white,
       ),
       titleTextStyle: TextStyle(
